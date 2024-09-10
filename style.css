@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background for the whole page */
+    color: #fff; /* White text color for contrast */
+}
+
+.resume {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #222; /* Dark grey background for the resume container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3); /* Red shadow for a striking effect */
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #ff0000; /* Red border for the profile picture */
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #ff0000; /* Red color for the name */
+}
+
+.title {
+    font-size: 1.3em;
+    color: #ccc; /* Light grey for the job title */
+    margin: 5px 0;
+}
+
+.contact {
+    color: #aaa; /* Light grey for contact details */
+}
+
+.contact a {
+    color: #ff0000; /* Red color for email links */
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #ff0000; /* Red underline for section titles */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    color: #ff0000; /* Red color for section titles */
+}
+
+.card {
+    background: #333; /* Dark grey background for cards */
+    border-left: 5px solid #ff0000; /* Red left border for cards */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #fff; /* White color for card headings */
+}
+
+.card ul {
+    list-style-type: disc;
+    margin: 0;
+    padding-left: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #444; /* Dark grey top border for footer */
+    margin-top: 20px;
+    color: #aaa; /* Light grey color for footer text */
+}
